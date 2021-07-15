@@ -6,10 +6,8 @@ const port = 3001;
 
 app.set("port", port);
 
-app.set("port", port);
-
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Hello world!");
 });
 
 app.listen(port, () => console.log("Listening on", port));
